@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  text-align: center;
+  margin-top: 50px;
+  background-color: whitesmoke;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.heading {
+  margin-bottom: 20px;
+  color: rgb(14, 97, 69);
+}
+.upper {
+  width: 70%;
+  background-color: aquamarine;
+  padding: 30px 20px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upperTitle {
+  margin-bottom: 20px;
+  color: rgb(13, 134, 94);
+}
+.upperInputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.upperInputs input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin: 0px 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#inp {
+  width: 50px;
+}
+
+#btn {
+  background-color: rgb(14, 129, 91);
+  color: white;
+  width: 120px;
+  cursor: pointer;
+}
+#btn:hover {
+  background-color: rgb(7, 88, 61);
+}
+.answer {
+  width: 70%;
+  padding: 0px 20px 0px;
+  height: 70px;
+  background-color: rgb(192, 255, 234);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+#invisible {
+  color: rgb(13, 134, 94);
+  margin-top: 15px;
+}
+.footerNote {
+  margin-top: 60px;
+  font-size: 18px;
+  padding: 0px 20px 0px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 15px;
+}
+
+.DesignName {
+  margin-top: 30px;
+  margin-bottom: 2px;
+  color: darkgreen;
+}
+
+.copyRight {
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.github {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  background-color: rgba(63, 177, 160, 0.527);
+  border-radius: 7px;
+  color: #175e34;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.gitIcon {
+  font-size: 25px;
+}
+
+.gitTitle {
+  font-size: 18px;
+  padding-left: 10px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.github-a {
+  text-decoration: none;
+}
+
+.copyRightIcon {
+  font-size: 18px;
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 415px) {
+  .answer {
+    padding-bottom: 20px;
+  }
+
+  .invisible {
+    font-size: 10px;
+  }
+}
